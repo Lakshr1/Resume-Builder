@@ -1,0 +1,248 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-transition: var(--asm-default-transition);
+  transition: var(--asm-default-transition);
+}
+
+
+:root {
+    --asm-default-transition: 300ms;
+    --asm-color-facebook: rgb(59, 89, 152);
+    --asm-color-twitter: rgb(85, 172, 238);
+    --asm-color-google: rgb(219,68,55) ;
+    --asm-color-linkedin: rgb(0, 130, 202);
+  }
+  :root {
+    --asm-color-warning: #ffc107;
+    --asm-color-danger: #dc3545;
+    --asm-color-dark: #343a40;
+    --asm-color-focus: rgba(0, 123, 255, 0.25);
+    --asm-color-secondary: #3f5c80;
+    --asm-color-accent: #b4c2c9;
+    --asm-color-flat: #6a9ed3;
+    --asm-color-sidenav-item: rgba(29, 54, 86, .6);
+    --asm-color-input-border: rgba(52, 58, 64, .25);
+    --asm-color-btn-secondary: #64c3f0;
+    --asm-color-background: #fff;
+    --asm-color-text: #343a40;
+    --asm-color-secondary-text: #fff;
+    --asm-color-social: #fff;
+  }
+  
+
+a{
+    text-decoration: none;
+}
+
+
+body{
+    background: linear-gradient(to left,rgb(253, 250, 255),rgb(255, 246, 246),rgb(245, 251, 255),rgb(255, 244, 251));
+    font-family: 'Montserrat';
+}
+
+.main-container{
+    margin: 15px 10px;
+    /* border: 1px solid black; */
+    height: auto;
+    width: calc(200% -20px);
+}
+
+.content-container{
+    height: auto;
+    width: 100%;
+    display: flex;
+}
+
+.left-side-box{
+    /* border: 1px solid red; */
+    background: linear-gradient(to left,white,transparent,white,transparent);
+    padding: 15px 0px;
+    width: 15vw;
+    font-family: 'Roboto';
+    
+}
+
+.lsb-title{
+    margin: 15px 10px;
+    font-size: 1.1rem;
+    
+}
+
+.lsb-content{
+    border: 1px solid rgba(153, 205, 50, 0);
+    box-shadow: .2px .2px 3px .2px rgb(218, 217, 217);
+    border-radius: 4px;
+    text-align: center;
+    margin: 2rem 5px;
+    position: sticky;
+}
+.sticky {
+    position: fixed;
+    top: 10%;
+  }
+
+.lsb-profile{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 1rem;
+}
+
+.lsb-profile img{
+    height: 80px;
+    width: 80px;
+}
+
+.profile-detail{
+    margin-left: 5px;
+    font-size: 1.3rem;
+}
+
+.profile-detail a{
+    font-size: 1rem;
+}
+
+.lsb-items{
+    box-shadow: .2px .2px 3px .2px rgb(218, 217, 217);
+    background: linear-gradient(to left,white,transparent,white,transparent);
+    border-radius: 2px;
+    margin: 25px 5px;
+    font-size: 1.2rem;
+    padding: 5px 5px;
+    width: 13vw;
+    /* font-weight:bold; */
+    /* letter-spacing: 1px; */
+    color:rgb(4, 14, 84);
+    text-align: left;
+}
+
+ion-icon{
+    font-size: 1.4rem;
+    margin: 0 10px;
+}
+
+
+
+.middle .mid-animation {
+    text-decoration: none;
+    font-size: 1em;
+    position: relative;
+    transition: all 0.6s;
+}
+.middle .mid-animation:before {
+    content: "";
+    width: 0;
+    height: 0.1em;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    background: #00aeff;
+    transition: all 0.3s;
+}
+.middle .mid-animation:hover:before {
+    width: 100%;
+    left: 0;
+    background: #00aeff;
+}
+
+
+
+/* ******************* RIGHT SIDE BOX *************************** */
+
+.right-side-box{
+    width: 100%;
+}
+
+.rsb-navbar{
+    height: 3rem;
+    width: 100%;
+}
+
+.logout-btn{
+    float: right;
+    margin: 10px 20px;
+}
+
+
+.rsb-content-container{
+    margin: 10px 10px;
+    width: calc(100%-20px);
+}
+
+.rsb-cc-1{
+    text-align: center;
+    margin: 2rem 0;
+}
+
+.rsb-cc-2{
+   
+    margin: 0 15px;
+}
+
+.rsb-template{ 
+  margin: 40px 0;
+}
+
+
+.rsb-template-content{
+    margin: 20px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.template{
+    box-shadow: .6px .6px 7px .6px rgb(218, 217, 217);
+    height: 400px;
+    width: 30%;
+    margin: 0 20px;
+    position: relative;
+}
+
+.template img{
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+    transition: .5s ease;
+}
+
+.template:hover{
+    box-shadow: 2px 2px 2px 2px rgb(218, 217, 217);
+}
+
+
+.temp-name{
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+
+}
+
+
+.template:hover img{
+    opacity: 0.3;
+ }
+.template:hover .temp-name{
+   opacity: 1;
+}
+
+.text {
+    color: white;
+    font-size: 16px;
+    padding: 16px 32px;
+}
+
+.text button{
+    margin-top: 5px;
+}
+

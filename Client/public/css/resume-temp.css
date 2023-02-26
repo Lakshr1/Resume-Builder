@@ -1,0 +1,72 @@
+a {
+    color: black;
+}
+
+.page_format {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.page_format {
+    background-color: rgba(250, 235, 215, 0.183);
+}
+
+.header {
+    font-size: large;
+    color: aliceblue;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(22, 22, 83);
+    margin-bottom: 0px;
+    margin-top: 5px;
+    padding-top: 0.1px;
+}
+
+.header h1 {
+    margin-bottom: 5px;
+}
+
+.header h5 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    color: black;
+    background-color: gray;
+    font-weight: lighter;
+    text-align: center;
+}
+
+li {
+    padding-left: 0px;
+    margin-top: 0cm;
+    font-weight: lighter;
+    text-align: left;
+}
+
+.heading {
+    padding-left: 30px;
+    font-size: 13px;
+    font-weight: small;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: left;
+    background-color: rgb(22, 22, 83);
+    color: aliceblue;
+}
+
+.data {
+    padding-left: 10px;
+}
+
+.h4 {
+    font-size: smaller;
+}
+
+td {
+    padding: 10px;
+    padding-left: 25px;
+}
+
+.tab {
+    padding-left: 100px;
+}

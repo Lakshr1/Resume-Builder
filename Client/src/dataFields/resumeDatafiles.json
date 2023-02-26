@@ -1,0 +1,32 @@
+{
+    "profile": {
+        "name":"",
+        "jobTitle":"",
+        "email":"",
+        "phone":"",
+        "address":"",
+        "links":{
+            "linkedIn":"",
+            "github":""
+        }
+    },
+    "skill":[],
+    "experience":[{
+        "jobTitle":"",
+        "employer":"",
+        "city":"",
+        "country":"",
+        "startDate":"",
+        "endDate":"",
+        "description":""
+    }],
+    "project":[{
+        "title":"",
+        "subTitle":"",
+        "link":"",
+        "startDate":"",
+        "endDate":"",
+        "description":""
+    }],
+    "intersts":""
+}

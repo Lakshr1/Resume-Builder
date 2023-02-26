@@ -1,0 +1,470 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-transition: var(--asm-default-transition);
+    transition: var(--asm-default-transition);
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    background: linear-gradient(to left, rgb(253, 250, 255), rgb(255, 246, 246), rgb(245, 251, 255), rgb(255, 244, 251));
+    font-family: 'Montserrat';
+    overflow-x: hidden;
+}
+
+.body-box {}
+
+.body-content {
+    /* border: 1px solid red; */
+    display: flex;
+}
+
+.left-side-box {
+    /* border: 1px solid red; */
+    background: linear-gradient(to left, white, transparent, white, transparent);
+    padding: 15px 0px;
+    width: 17vw;
+    font-family: 'Roboto';
+}
+
+.lsb-title {
+    margin: 15px 10px;
+    font-size: 1.1rem;
+}
+
+.lsb-content {
+    border: 1px solid rgba(153, 205, 50, 0);
+    box-shadow: .2px .2px 3px .2px rgb(218, 217, 217);
+    border-radius: 4px;
+    text-align: center;
+    margin: 2rem 5px;
+    position: sticky;
+}
+
+.sticky {
+    position: fixed;
+    top: 10%;
+}
+
+.lsb-profile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 1rem;
+}
+
+.lsb-profile img {
+    height: 80px;
+    width: 80px;
+}
+
+.profile-detail {
+    margin-left: 5px;
+    font-size: 1.3rem;
+}
+
+.profile-detail a {
+    font-size: 1rem;
+}
+
+.lsb-items {
+    box-shadow: .2px .2px 3px .2px rgb(218, 217, 217);
+    background: linear-gradient(to left, white, transparent, white, transparent);
+    border-radius: 2px;
+    margin: 25px 5px;
+    font-size: 1.2rem;
+    padding: 5px 5px;
+    width: 13vw;
+    /* font-weight:bold; */
+    /* letter-spacing: 1px; */
+    color: rgb(4, 14, 84);
+    text-align: left;
+}
+
+ion-icon {
+    font-size: 1.4rem;
+    margin: 0 10px;
+}
+
+.middle .mid-animation {
+    text-decoration: none;
+    font-size: 1em;
+    position: relative;
+    transition: all 0.6s;
+}
+
+.middle .mid-animation:before {
+    content: "";
+    width: 0;
+    height: 0.1em;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    background: #00aeff;
+    transition: all 0.3s;
+}
+
+.middle .mid-animation:hover:before {
+    width: 100%;
+    left: 0;
+    background: #00aeff;
+}
+
+.right-content-box {
+    /* border: 1px solid red; */
+    width: 100%;
+    background-color: rgb(230, 230, 230);
+    padding-bottom: 10vh;
+    display: flex;
+}
+
+
+/*  */
+
+.right-option-bar {
+    margin: 0 auto;
+    width: 65%;
+}
+
+.r-option-box1 {
+    width: 90%;
+    margin: 20px;
+    margin-top: 50px;
+    /* border: 1px solid red; */
+}
+
+.rb1-c1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-menu {
+    width: 100%;
+    justify-content: flex-start;
+    border: 1px solid rgba(128, 128, 128, 0.411);
+    background-color: white;
+    width: 20vw;
+    box-shadow: .6px .6px 7px .6px rgb(218, 217, 217);
+}
+
+.personal-detail {
+    /* border: 1px solid red; */
+    margin-top: 25px;
+    background-color: white;
+    box-shadow: 1.2px 1.2px 9px 1.2px rgb(218, 217, 217);
+}
+
+.rb1-box-head {
+    border-bottom: 6px solid rgb(230, 230, 230);
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.personal-detail-text {
+    width: 20vw;
+}
+
+.personal-detail-edit {
+    margin: auto;
+}
+
+.edit {
+    display: flex;
+    margin-left: auto;
+    align-items: flex-end;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 5px;
+    align-items: center;
+    cursor: pointer;
+}
+
+.c2-content-body {
+    /* border: 1px solid green; */
+    padding: 15px;
+    display: flex;
+}
+
+.left-c2-c {
+    width: 40%;
+    padding: 0 10px;
+}
+
+.left-c2-c div {
+    margin: 5px 0;
+    font-weight: 600;
+}
+
+.display-img {}
+
+.dp-img {
+    height: 135px;
+    /* border: 1px solid black; */
+    padding: 10px;
+}
+
+.dp-img img {
+    height: 100%;
+    width: 100%;
+}
+
+.right-c2-c div {
+    margin: 5px 0;
+}
+
+.personal-r-name {
+    height: 135px;
+    font-weight: 600;
+    font-size: 1.4rem;
+    text-align: center;
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.personal-name-text {
+    /* border: 1px solid red; */
+}
+
+
+/*  */
+
+.rb1-c3 {
+    box-shadow: 1.2px 1.2px 9px 1.2px rgb(218, 217, 217);
+    margin: 12.5px 0;
+}
+
+.personal-project-head {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.head-text {
+    width: 18vw;
+}
+
+.rb1-c4 {
+    box-shadow: 1.2px 1.2px 9px 1.2px rgb(218, 217, 217);
+    margin: 12.5px 0;
+}
+
+.rb1-c5 {
+    box-shadow: 1.6px 1.6px 9px 1.6px rgb(218, 217, 217);
+    margin: 12.5px 0;
+}
+
+
+/* right resume display */
+
+.right-temp-box {
+    height: auto;
+}
+
+.right-arrow {
+    margin: auto;
+    margin-top: 50vh;
+}
+
+
+/* Slide bar code */
+
+.mask {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8);
+}
+
+.menu {
+    display: none;
+    position: absolute;
+    z-index: 1000;
+    background-color: #fff;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.1s;
+}
+
+.slide-menu-right {
+    right: -1200px;
+    top: 0;
+    width: 1200px;
+}
+
+.toggle-slide-right {
+    color: #fff;
+    background: black;
+    border: 1px solid grey;
+    border-radius: 5px;
+    display: block;
+    margin: 20px auto;
+    padding: 10px;
+    right: -300px;
+    top: 0;
+    width: 300px;
+}
+
+button.close-menu {
+    color: #fff;
+    background: black;
+    border: 1px solid grey;
+    border-radius: 5px;
+    display: block;
+    margin: 40px auto;
+    width: 100px;
+}
+
+body.smr-open .slide-menu-right {
+    right: 0
+}
+
+
+/* 
+.right-resume-display{
+
+width: 50%;
+}
+
+.rrd-resume-box{
+    
+    height: 90vh;
+    margin: auto;
+    margin-top: 5vh;
+    width: 80%;
+}
+
+.rb-template-box{
+
+    height: 100%;
+    width: 100%;
+}
+ */
+
+
+/* **resume** */
+
+.button {
+    background-color: rgb(40, 174, 123);
+    color: antiquewhite;
+    border: none;
+    padding: 18px 55px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.button:hover {
+    background-color: rgb(87, 221, 170);
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+.add-content {
+    padding-left: 140px;
+}
+
+.ProjectButton {
+    background-color: white;
+    border: 1px solid rgba(0, 0, 0, 0.299);
+    padding: 4px 25px;
+    padding-left: 8px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 0px;
+    margin-left: 150px;
+}
+
+.head {
+    float: left;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.ProjectImage {
+    height: 20px;
+    width: 20x;
+}
+
+.InputProject {
+    border: 1px solid rgb(245, 245, 245);
+    background-color: rgb(245, 245, 245);
+    padding: 6px 6px;
+    border-radius: 2px;
+    width: 300px;
+}
+
+.content {
+    padding-left: 10px;
+    padding-right: 250px;
+    margin-right: 10px;
+}
+
+.LinkButton {
+    background-color: white;
+    border: 1px solid rgba(0, 0, 0, 0.299);
+    padding: 4px 25px;
+    padding-left: 8px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 0px;
+    margin-left: 150px;
+}
+
+.LinkImage {
+    height: 20px;
+    width: 20px;
+}
+
+.linkbox {
+    padding-left: 190px;
+}
+
+.skillHeading {
+    padding-right: 400px;
+}
+
+.sub-skillHeading {
+    padding-top: 10px;
+}
+
+.InputDescription {
+    width: 360px;
+    height: 250px;
+    border: 1px solid rgb(245, 245, 245);
+    background-color: rgb(245, 245, 245);
+}

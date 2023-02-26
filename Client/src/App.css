@@ -1,0 +1,130 @@
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+textarea {
+  resize: none;
+}
+
+label{
+  display: block;
+}
+
+.profileEditWrap input{
+  width: 40%;
+}
+
+.profileEditWrap{
+ margin: 1rem;
+}
+
+.profile-input-merge{
+  display: flex;
+}
+
+.profile-input-merge .profile-input{
+  width: 50%;
+}
+
+.profile-input-merge-heading{
+  width: 100%;
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-top: 0.5rem;
+  display: block;
+}
+
+.Cancel-btn button{
+  border: 1px solid rgba(128, 128, 128, 0.622);
+}
+
+
+.education-content{
+  border: 1px solid rgba(128, 128, 128, 0.671);
+  border-radius: 2%;
+  padding: 0.7rem;
+  margin-bottom: 0.6rem;
+}
+
+.education-actions{
+  margin-left: auto;
+  align-items: flex-end;
+  align-items: center;
+}
+
+.education-actions .edit{
+  margin: 0 0.3rem;
+  color: #0c63e4;
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+.delete-action{
+  margin: 0 0.2rem;
+  color: red;
+  font-size: 1rem;
+  font-weight: 500;
+  display: flex;
+  margin-left: auto;
+  align-items: flex-end;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 5px;
+  align-items: center;
+  cursor: pointer;
+}
+
+
+.input-merge{
+  margin: 0.4rem 0;
+}
+
+.add-btn{
+  margin: 0 0.2rem;
+  color: white;
+  background-color: #0c63e4;
+  font-size: 1.3rem;
+  font-weight: 500;
+  display: flex;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border: 1px solid rgba(0, 0, 0, 0.4);
+  border-radius: 5px;
+  padding: 5px;
+  align-items: center;
+  cursor: pointer;
+}
+
+.w-20{
+  width:20%!important
+}
+.w-40{
+  width:40%!important
+}
+.w-60{
+  width:60%!important
+}
+.w-80{
+  width:80%!important
+}
+.w-100{
+  width:100%!important
+}
+
+.displayNone{
+  display: none;
+}
+
+.heading{
+  color: white;
+}
+
